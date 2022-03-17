@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* primera parte */
+
+body{
+    font-family: sans-serif;
+    overflow-x:: hidden
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color:gray ;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.carousel-inner { 
+    max-height: 40rem;
+
+}
+
+
+
+
+
+@media (max-width:768px) {
+    #intro, #equipo{
+        width: 90% !important;
+    }
+
+    #equipo p {display: none;
+
+    }
+
+
+     .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    #bg-contacto{
+        
+        top: -110px;
+    
+    }
+    
+}
+
+
+/* segunda parte */
+
+
+@media (max-width:576px) { 
+
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+}
+
+/* tercera parte*/
+
+.mapa{
+    background: url( ./img/fondo\ 10.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+
+#local{
+    background-color: gray;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper{
+width: 50%;
+margin-left: 100px;
+padding-top: 150px;
+
+}
+
+
+
+
+
+#numeros div{
+    padding: 0 20px 0 0;
+    height: 48px;
+
+}
+
+#numeros div:not(:last-child){
+    border-right: 2px solid grey;
+}
+
+#numeros div:not(:first-child){
+    padding-left: 20px;
+}
+
+#numeros p{
+    margin: 0;
+}
+
+
+
+ /* cuarta parte */
+
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+
+#bg-contacto{
+    position: relative;
+        top: -130px;
+    
+    }
+
+
+
+
+@media (max-width:1200px){
+
+#local{
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+}
+
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
+
+
+footer{
+    background-color: #1b2a4e;
+    min-height: 100px;
+
+}
+  
+
+/* quinta parte*/
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+
+#iconos a{
+    font-size: 26px;
+    padding: 0;
+    color: #f3f3f3;
+}
+
+
+
+
+
